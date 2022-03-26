@@ -1,0 +1,67 @@
+:root {
+  /* CSS HEX */
+--russian-violet: #231942ff;
+--purple-navy: #5e548eff;
+--purple-mountain-majesty: #9f86c0ff;
+--magnolia: #f9f5ffff;
+--magnolia-2: #f3eff5ff;
+
+/* CSS HSL */
+--purple-dark: hsla(255, 45%, 18%, 1);
+--purple-med: hsla(250, 26%, 44%, 1);
+--purple-light: hsla(266, 32%, 64%, 1);
+--white-dark: hsla(264, 100%, 98%, 1);
+--white-light: hsla(280, 23%, 95%, 1);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body.wrapper {
+  width: 100vw;
+  min-height: 100vh;
+  position: relative;
+  font-family: 'Quicksand', sans-serif;
+  background-color: var(--purple-dark);
+  color: var(--white-light);
+}
+
+div.container {
+  max-width: 1000px;
+  margin: auto;
+}
+
+/* Header & Nav */
+
+header {
+  padding: 1em;
+}
+
+div.title-container {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+.icon {
+  width: 60px;
+  height: 60px;
+  top: 24px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 4em;
+  font-family: 'Lobster', cursive;
+  column-rule: var(white-dark);
+  text-shadow: 2px 3px rgb(29, 29, 29);
+}
+
+h2 {
+  text-align: center;
+  letter-spacing: 4px;
+  word-spacing: 5px;
+}
